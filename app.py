@@ -10,7 +10,7 @@ import plotly.express as px
 connect()
 
 # Load dataset
-df = get_df("World-happiness-report-updated_2024.csv")
+df = get_df("World-happiness-report-updated_2024")
 
 # UI Components
 selected_year = dropdown("Select a Year", options=sorted(df["year"].unique(), reverse=True))
