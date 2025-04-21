@@ -3,9 +3,6 @@ import plotly.express as px
 
 text("This app lets users explore how happiness scores across countries relate to factors like GDP, social support, and freedom of choice — all based on the World Happiness Report (2008–2024). You can interactively filter countries by year and happiness level, and visualize insights through scatter and bar charts.")
 
-from preswald import connect, get_df, table, text, plotly, slider, dropdown
-import plotly.express as px
-
 # Initialize connection
 connect()
 
